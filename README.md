@@ -17,7 +17,7 @@ Add the following to your `pubspec.yaml` file:
 dependencies:
   nice_sheet:
     git:
-      url: https://github.com/sakurakotubaki/nice_sheet.git
+      url: https://github.com/sakurakotubaki/nice_sheet
 ```
 
 Then, run `flutter pub get` to install the package.
