@@ -54,6 +54,16 @@ class CheckboxSheet {
                                 ),
                               ),
                             ),
+                            IconButton(
+                              icon: Icon(Icons.delete),
+                              onPressed: () {
+                                setState(() {
+                                  items.removeAt(index);
+                                  checked.removeAt(index);
+                                });
+                                onChanged(checked);
+                              },
+                            ),
                           ],
                         ),
                         if (index < items.length - 1) Divider(),
