@@ -1,7 +1,7 @@
 name: nice_sheet
-description: "A new Flutter package project."
+description: A customizable Slack-style bottom sheet widget for Flutter applications. Provides easy-to-use action menus with support for common operations like reply, edit, copy, and delete.
 version: 0.0.1
-homepage:
+homepage: https://github.com/sakurakotubaki/nice_sheet
 
 environment:
   sdk: ^3.7.0
